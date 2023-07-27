@@ -1,17 +1,17 @@
 This case study is part of the Google Data Analytics Program.
 
-**Scenario**
+# Scenario
 
 You are a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, your team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, your team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve your recommendations, so they must be backed up with compelling data insights and professional data visualizations.
 
-**Characters and teams**
+# Characters and teams
 
 - **Cyclistic:** A bike-share program that features more than 5,800 bicycles and 600 docking stations. Cyclistic sets itself apart by also offering reclining bikes, hand tricycles, and cargo bikes, making bike-share more inclusive to people with disabilities and riders who can’t use a standard two-wheeled bike. The majority of riders opt for traditional bikes; about 8% of riders use the assistive options. Cyclistic users are more likely to ride for leisure, but about 30% use them to commute to work each day.
 - **Lily Moreno:** The director of marketing and your manager. Moreno is responsible for the development of campaigns and initiatives to promote the bike-share program. These may include email, social media, and other channels.
 - **Cyclistic marketing analytics team:** A team of data analysts who are responsible for collecting, analyzing, and reporting data that helps guide Cyclistic marketing strategy. You joined this team six months ago and have been busy learning about Cyclistic’s mission and business goals — as well as how you, as a junior data analyst, can help Cyclistic achieve them.
 - **Cyclistic executive team:** The notoriously detail-oriented executive team will decide whether to approve the recommended marketing program.
 
-**About the company**
+# About the company
 
 In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 5,824 bicycles that are geotracked and locked into a network of 692 stations across Chicago. The bikes can be unlocked from one station and returned to any other station in the system anytime.
 
@@ -19,7 +19,7 @@ Until now, Cyclistic’s marketing strategy relied on building general awareness
 
 Cyclistic’s finance analysts have concluded that annual members are much more profitable than casual riders. Although the pricing flexibility helps Cyclistic attract more customers, Moreno believes that maximizing the number of annual members will be key to future growth. Rather than creating a marketing campaign that targets all-new customers, Moreno believes there is a very good chance to convert casual riders into members. She notes that casual riders are already aware of the Cyclistic program and have chosen Cyclistic for their mobility needs.
 
-**Business task**
+# Business task
 
 Moreno has set a clear goal: Design marketing strategies aimed at **converting casual riders into annual members**. In order to do that, however, the marketing analyst team needs to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. Moreno and her team are interested in analyzing the Cyclistic historical bike trip data to identify trends.
 
@@ -31,15 +31,13 @@ Three questions will guide the future marketing program:
 
 Moreno has assigned you the first question to answer: ***How do annual members and casual riders use Cyclistic bikes differently?***
 
-=====================================================================================
-
-**BUSINESS OBJECTIVE**
+# BUSINESS OBJECTIVE
 
 The primary goal is to develop effective marketing strategies for converting casual bike riders into annual members. This will be achieved through an analysis of the distinct usage patterns of Cyclistic bike-share between annual members and casual riders.
 
 Key stakeholders: Cyclistic executive team, Director of Marketing (Lily Moreno), and Marketing Analytics team.
 
-**DATA SOURCE**
+# DATA SOURCE
 
 The previous 12 months of Cyclistic trip data, **from June 2022 to May 2023**, will be used for this project: https://divvy-tripdata.s3.amazonaws.com/index.html. 
 
@@ -83,18 +81,18 @@ In terms of credibility and integrity, the data satisfies the **ROCCC** standar
 
 To maintain data integrity, original files were securely stored while creating reference copies. SQL queries via BigQuery were used for efficient data preparation, cleaning, processing, and analysis, enabling complex queries and transformations.
 
-**DATA LIMITATION**
+# DATA LIMITATION
 
 Due to data-privacy concerns, I am unable to utilize personally identifiable information of riders, including details like age, gender, or address. Consequently, I cannot establish connections between pass purchases and credit card numbers to determine whether casual riders reside within the Cyclistic service area or have made multiple single-pass purchases. This limitation also restricts the analysis of demographic aspects.
 
-**A SUMMARY OF PROCESSING STEPS**
+# A SUMMARY OF PROCESSING STEPS
 
-**Data exploration**
+## Data Exploration
 
 - Got familiar with and understood the data
 - Merged individual monthly data frames into one large data frame (table namely trip_data with 5829030 rows)
 
-**Data cleaning and manipulation**
+## Data Cleaning and Manipulation
 
 - Compared column names and data types and consolidated consistent
 - Checked null values in each column
@@ -110,7 +108,7 @@ Due to data-privacy concerns, I am unable to utilize personally identifiable inf
     - Deleted two columns: start_station_id and end_station_id
     - Deleted rows where ride_length was negative or 'zero’
 
-**Data analysis**
+## Data Analysis
 
 - Calculated total rides of member and casual users
 - Calculated the maximum, minimum, mean, and medium values of ride_length
@@ -124,14 +122,14 @@ Due to data-privacy concerns, I am unable to utilize personally identifiable inf
 - Identified the top start stations for both member and casual users
 - Calculated the total number of rides by rideable type for both member and casual users
 
-**Interpretation**
+## Interpretation
 
 Analyzed the results of the data analysis to draw meaningful conclusions and insights.
 
-**Visualization**
+## Visualization
 
 Represented the data and analysis results visually using charts and graphs via Power BI.
 
-**Presentation**
+## Presentation
 
 Prepared a comprehensive summary presentation of the findings and recommendations for stakeholders.
