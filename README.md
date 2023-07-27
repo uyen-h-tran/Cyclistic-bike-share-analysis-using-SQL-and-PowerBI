@@ -31,7 +31,7 @@ Three questions will guide the future marketing program:
 
 Moreno has assigned you the first question to answer: ***How do annual members and casual riders use Cyclistic bikes differently?***
 
-======================================================================================================================================================================
+=================================================================================
 
 **BUSINESS OBJECTIVE**
 
@@ -45,7 +45,7 @@ The previous 12 months of Cyclistic trip data, **from June 2022 to May 2023**, w
 
 The data has been made available by Motivate International Inc. under this license: https://ride.divvybikes.com/data-license-agreement. 
 
-Each dataset is a CSV (comma-separated values) file containing details of every ride logged by Cyclistic customers. There are total 13 columns in each:
+Each dataset is a CSV (comma-separated values) file containing details of every ride logged by Cyclistic customers. There are a total of 13 columns in each:
 
 ride_id            : unique Ride ID
 
