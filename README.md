@@ -31,7 +31,7 @@ Three questions will guide the future marketing program:
 
 Moreno has assigned you the first question to answer: ***How do annual members and casual riders use Cyclistic bikes differently?***
 
-=================================================================================
+=====================================================================================
 
 **BUSINESS OBJECTIVE**
 
