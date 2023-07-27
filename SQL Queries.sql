@@ -47,9 +47,9 @@ SELECT
 FROM `Cyclistic.tripdata`;
 /* Results:
 start_station_name_null_count = 834545
-start_station_id_null_count	  = 834677
-end_station_name_null_count	  = 891757
-end_station_id_null_count	    = 891898
+start_station_id_null_count   = 834677
+end_station_name_null_count   = 891757
+end_station_id_null_count     = 891898
 start_lat_null_count          = 0
 start_lng_null_count          = 0
 end_lat_null_count            = 5961
