@@ -31,13 +31,13 @@ Three questions will guide the future marketing program:
 
 Moreno has assigned you the first question to answer: ***How do annual members and casual riders use Cyclistic bikes differently?***
 
-# BUSINESS OBJECTIVE
+# Businness objective
 
 The primary goal is to develop effective marketing strategies for converting casual bike riders into annual members. This will be achieved through an analysis of the distinct usage patterns of Cyclistic bike-share between annual members and casual riders.
 
 Key stakeholders: Cyclistic executive team, Director of Marketing (Lily Moreno), and Marketing Analytics team.
 
-# DATA SOURCE
+# Data source
 
 The previous 12 months of Cyclistic trip data, **from June 2022 to May 2023**, will be used for this project: https://divvy-tripdata.s3.amazonaws.com/index.html. 
 
@@ -81,11 +81,11 @@ In terms of credibility and integrity, the data satisfies the **ROCCC** standar
 
 To maintain data integrity, original files were securely stored while creating reference copies. SQL queries via BigQuery were used for efficient data preparation, cleaning, processing, and analysis, enabling complex queries and transformations.
 
-# DATA LIMITATION
+# Data limitation
 
 Due to data-privacy concerns, I am unable to utilize personally identifiable information of riders, including details like age, gender, or address. Consequently, I cannot establish connections between pass purchases and credit card numbers to determine whether casual riders reside within the Cyclistic service area or have made multiple single-pass purchases. This limitation also restricts the analysis of demographic aspects.
 
-# A SUMMARY OF PROCESSING STEPS
+# A summary of processing steps
 
 ## Data Exploration
 
