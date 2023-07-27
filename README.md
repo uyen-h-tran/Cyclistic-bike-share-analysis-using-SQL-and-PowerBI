@@ -90,7 +90,7 @@ Due to data-privacy concerns, I am unable to utilize personally identifiable inf
 ## Data Exploration
 
 - Got familiar with and understood the data
-- Merged individual monthly data frames into one large data frame (table namely trip_data with **5829030 rows**)
+- Merged individual monthly data frames into one large data frame (table namely trip_data with **5 829 030 rows**)
 
 ## Data Cleaning and Manipulation
 
@@ -99,7 +99,7 @@ Due to data-privacy concerns, I am unable to utilize personally identifiable inf
 - Checked duplicates in each column
 - Checked unique values and if there were any typographical errors
 - Verified data integrity
-- Created a table namely tripdata_clean (**5671267 rows, 157763 rows dropped**)
+- Created a table namely tripdata_clean (**5 671 267 rows, 157 763 rows dropped**)
     - Created a column called day_of_week
     - Created a column called ride_month
     - Created a column called start_time
