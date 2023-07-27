@@ -115,7 +115,6 @@ Due to data-privacy concerns, I am unable to utilize personally identifiable inf
 - Calculated the maximum, minimum, mean, and medium values of ride_length for both member and casual users
 - Calculated the mode of day_of_week
 - Calculated the total number of rides and the average ride length for both member and casual users on a daily basis
-- Calculated the total number of rides and the average ride length for both member and casual users on a daily basis
 - Calculated the total number of rides and the average ride length for both member and casual users on a monthly basis
 - Calculated the total number of rides by start time for both member and casual users throughout the day
 - Calculated the total number of rides by start time for both member and casual users by day of the week
