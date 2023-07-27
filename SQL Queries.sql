@@ -109,7 +109,7 @@ SELECT start_station_name
 FROM `Cyclistic.tripdata`
 WHERE start_lat = 41.95 and start_lng = -87.83
 GROUP BY start_station_name;
-/* Results - many stations: 
+/* Results - there were many stations for one couple value start_lat and start_lng so not able to identifying start_station_name based on start_lat and start_lng: 
 Plainfield & Irving Park
 Panama Ave & Grace St
 Plainfield Ave & Irving Park Rd
@@ -127,7 +127,7 @@ SELECT end_station_name
 FROM `Cyclistic.tripdata`
 WHERE end_lat = 41.91 and end_lng = -87.78
 GROUP BY end_station_name;
-/* Results - many stations:
+/* Results - there were many stations for one couple value end_lat and end_lng so not able to identifying end_station_name based on end_lat and end_lng:
 Public Rack - Austin Blvd & North Ave
 Public Rack - Harvey Ave & North Ave
 Harvey Ave & North Ave */
