@@ -99,7 +99,7 @@ Due to data-privacy concerns, I am unable to utilize personally identifiable inf
 - Checked duplicates in each column
 - Checked unique values and if there were any typographical errors
 - Verified data integrity
-- Created a table namely tripdata_clean (5578906 rows, 250124 rows dropped)
+- Created a table namely tripdata_clean (5671267 rows, 157763 rows dropped)
     - Created a column called day_of_week
     - Created a column called ride_month
     - Created a column called start_time
