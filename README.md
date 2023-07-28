@@ -43,7 +43,7 @@ The data has been made available by Motivate International Inc. under this licen
 
 Each dataset is a CSV (comma-separated values) file containing details of every ride logged by Cyclistic customers. There are a total of 13 columns in each:
 
-ride_id            : unique Ride ID
+ride_id            : Unique Ride ID
 
 rideable_type      : Bike type (Classic, Docked, Electric)
 
