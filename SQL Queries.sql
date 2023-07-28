@@ -352,14 +352,19 @@ WITH RankedStartStations AS (
   SELECT
     member_casual,
     start_station_name,
+    start_lat,
+    start_lng,
     COUNT(*) AS total_rides,
     ROW_NUMBER() OVER (PARTITION BY member_casual ORDER BY COUNT(*) DESC) AS station_rank
   FROM `Cyclistic.tripdata_clean`
-  GROUP BY member_casual, start_station_name
+  GROUP BY member_casual, start_station_name, start_lat,
+    start_lng
 )
 SELECT
   member_casual,
   start_station_name,
+  start_lat,
+  start_lng,
   total_rides
 FROM RankedStartStations
 WHERE station_rank <= 10
