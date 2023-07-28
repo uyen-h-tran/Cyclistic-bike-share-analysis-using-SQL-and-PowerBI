@@ -94,6 +94,7 @@ Due to data-privacy concerns, I am unable to utilize personally identifiable inf
 
 - Compared column names and data types and consolidated consistent
 - Checked null values in each column
+- Filled missing values based on available data when possible
 - Checked duplicates in each column
 - Checked unique values and if there were any typographical errors
 - Verified data integrity
